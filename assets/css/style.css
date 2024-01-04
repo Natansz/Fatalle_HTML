@@ -14658,3 +14658,20 @@ span.select2-selection.select2-selection--single:focus {
     padding-top: 65px;
   }
 }
+
+.mobile-banner{
+  display: none;
+}
+
+@media (max-width:550px) {
+
+  .computador{
+    display: none;
+
+  }
+  .mobile-banner{
+    display: block;
+  }
+}
+  /* Esconde todos os slides */
+  
