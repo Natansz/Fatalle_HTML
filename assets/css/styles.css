@@ -1,0 +1,43 @@
+.age-verification {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  .foto-de-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('../img/verificacao.JPG'); /* Substitua 'perfil.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    margin: 0 auto 20px;
+  }
+  
+  
+  #userAge {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p#result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
